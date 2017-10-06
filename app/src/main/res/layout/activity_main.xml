@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.marlon.calculodenotas.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="53dp"
+                app:srcCompat="@drawable/uma" />
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tv1"
+                android:textColor="@color/colorPrimary"
+                android:gravity="center"
+                android:fontFamily="monospace"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tv2"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="213dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tv3"
+                        android:textColor="@color/colorPrimary"
+                        android:fontFamily="monospace"/>
+
+                    <EditText
+                        android:id="@+id/et4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:hint="@string/et4"
+                        android:inputType="numberDecimal" />
+
+                    <EditText
+                        android:id="@+id/et5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:hint="@string/et5"
+                        android:inputType="numberDecimal" />
+
+                    <EditText
+                        android:id="@+id/et6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:hint="@string/et6"
+                        android:inputType="numberDecimal" />
+
+                    <TextView
+                        android:id="@+id/tvnotafin1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/tvnotafin1"
+                        android:fontFamily="monospace"/>
+
+                    <TextView
+                        android:id="@+id/txt1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:maxLength="3"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tv7"
+                    android:textColor="@color/colorPrimary"
+                    android:fontFamily="monospace"/>
+
+                <EditText
+                    android:id="@+id/et8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/et8"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/et9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/et9"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/et10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/et10"
+                    android:inputType="numberDecimal" />
+
+                <TextView
+                    android:id="@+id/tvnotafin2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tvnotafin2"
+                    android:gravity="center"
+                    android:fontFamily="monospace"/>
+
+                <TextView
+                    android:id="@+id/txt2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:maxLength="3"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tv11"
+                        android:textColor="@color/colorPrimary"
+                        android:fontFamily="monospace"/>
+
+                    <EditText
+                        android:id="@+id/et12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:hint="@string/et12"
+                        android:inputType="numberDecimal" />
+
+                    <EditText
+                        android:id="@+id/et13"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:hint="@string/et13"
+                        android:inputType="numberDecimal" />
+
+                    <EditText
+                        android:id="@+id/et14"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:hint="@string/et14"
+                        android:inputType="numberDecimal" />
+
+                    <TextView
+                        android:id="@+id/tvnotafin3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tvnotafin3"
+                        android:gravity="center"
+                        android:fontFamily="monospace"/>
+
+                    <TextView
+                        android:id="@+id/txt3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:maxLength="3"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tv19"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/tv19"
+                            android:textColor="@color/colorPrimary"
+                            android:fontFamily="monospace"/>
+
+                        <EditText
+                            android:id="@+id/et20"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:hint="@string/et20"
+                            android:inputType="numberDecimal" />
+
+                        <EditText
+                            android:id="@+id/et21"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:hint="@string/et21"
+                            android:inputType="numberDecimal" />
+
+                        <EditText
+                            android:id="@+id/et22"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:hint="@string/et22"
+                            android:inputType="numberDecimal" />
+
+                        <TextView
+                            android:id="@+id/tvnotafinal4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/tvnotafin4"
+                            android:gravity="center"
+                            android:fontFamily="monospace"/>
+
+                        <TextView
+                            android:id="@+id/txt4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:maxLength="3"/>
+
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/btn5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="total"
+                        android:text="@string/btn5"
+                        android:fontFamily="monospace"/>
+
+                    <Button
+                        android:id="@+id/btn6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="acerca"
+                        android:text="@string/btn6"
+                        android:fontFamily="monospace"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
